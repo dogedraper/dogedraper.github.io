@@ -1025,6 +1025,12 @@ ol {
   }
 }
 
+
+  .sectionbreak {
+    padding-top: 50px;
+  }
+
+
 @media (max-width: 767px) {
   .section {
     padding-top: 50px;
@@ -1039,6 +1045,7 @@ ol {
   padding: 0 0px;
   position: relative;
   z-index: 5;
+  max-width: 900px;
 }
 
 .section-title h3 {
@@ -2499,11 +2506,98 @@ ol {
 }
 
 /*======================================
+    Breaker CSS
+========================================*/
+.call-action {
+  background-color: #b32f2f;
+;
+}
+
+.call-action .breaker {
+  text-align: left;
+  /* padding: 0px 50px; */
+}
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .call-action .breaker {
+    padding: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .call-action .breaker {
+    padding: 0;
+  }
+}
+
+.call-action .breaker h2 {
+  color: #fff;
+  line-height: 50px;
+  font-size: 38px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .call-action .breaker h2 {
+    font-size: 32px;
+    line-height: 45px;
+  }
+}
+
+@media (max-width: 767px) {
+  .call-action .breaker h2 {
+    font-size: 25px;
+    line-height: 35px;
+  }
+}
+
+.call-action .breaker p {
+  color: #fff;
+  padding: 0px 50px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .call-action .breaker p {
+    padding: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .call-action .breaker p {
+    padding: 0;
+  }
+}
+
+.call-action .breaker .button {
+  margin-top: 40px;
+}
+
+.call-action .breaker .button .btn {
+  background-color: #fff;
+  color: #b32f2f;
+;
+}
+
+.call-action .breaker .button .btn:hover {
+  color: #fff;
+  background-color: #081828;
+}
+
+
+/*======================================
     Call To Action CSS
 ========================================*/
 .call-action {
   background-color: #b32f2f;
 ;
+}
+
+.call-action .cta-content {
+  text-align: center;
+  padding: 0px 50px;
 }
 
 .call-action .cta-content {
