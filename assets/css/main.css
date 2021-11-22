@@ -2087,8 +2087,8 @@ ol {
 .hero-area .hero-content .button .btn {
   background-color: #fff;
   color: #b32f2f;
-;
   margin-right: 12px;
+  margin-top: 12px;
 }
 
 .hero-area .hero-content .button .btn i {
