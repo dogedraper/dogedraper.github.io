@@ -1430,6 +1430,15 @@ ol {
   top: 0;
 }
 
+.header-other {
+  width: 100%;
+  background: #b32f2f;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .header {
     padding: 18px 0 !important;
@@ -2266,6 +2275,11 @@ p.contract {
     margin: 0;
   }
 }
+
+.rules {
+  padding-top: 200px;
+}
+
 
 /*======================================
     Features Area CSS
